@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocarina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1>Ocarina</h1>
+        <h3>Simulator</h3>
+    </div>
+    
+
+    <aside>
+        <h1>Notas:</h1>
+        <h3>A</h3>
+        <h3>S</h3>
+        <h3>D</h3>
+        <h3>F</h3>
+        <h3>G</h3>
+    </aside>
+
+    <div class="notes">
+        <div data-key="keya" class="note"><img src="images/001-effects.png" alt=""></div>
+        <div data-key="keys" class="note2"><img src="images/002-effects-1.png" alt=""></div>
+        <div data-key="keyd" class="note"><img src="images/003-effects-2.png" alt=""></div>
+        <div data-key="keyf" class="note2"><img src="images/effects (1).png" alt=""></div>
+        <div data-key="keyg" class="note"><img src="images/effects.png" alt=""></div>
+    </div>
+
+    <div class="ocarina">
+        <img src="images/ocarina (2).png" alt="">
+    </div>
+
+    <div class="composer">
+        <input type="text" id="input" placeholder="Faça uma composição..." />
+        <button class="button-55" role="button">Tocar</button>
+    </div>
+
+    <audio id="s_keya" src="ocarinaSounds/keya.wav"></audio>
+    <audio id="s_keys" src="ocarinaSounds/keys.wav"></audio>
+    <audio id="s_keyd" src="ocarinaSounds/keyd.wav"></audio>
+    <audio id="s_keyf" src="ocarinaSounds/keyf.wav"></audio>
+    <audio id="s_keyg" src="ocarinaSounds/keyg.wav"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
